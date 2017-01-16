@@ -6,9 +6,6 @@ import android.widget.TextView;
 
 import com.example.kaoshi.base.BaseFragment;
 
-/**
- * Created by 麻少亭 on 2017/1/16.
- */
 
 public class LocalAudioFragment extends BaseFragment {
 
@@ -17,6 +14,8 @@ public class LocalAudioFragment extends BaseFragment {
         TextView view = new TextView(mContext);
 
         view.setTextSize(25);
+
+
         view.setTextColor(Color.RED);
         view.setText("本地yinyue ");
         return view;
